@@ -1,0 +1,8 @@
+config:
+  - ./*
+tests:
+  - any: ["tests/**/*"]
+package:
+  - any: ["package.json", "package-lock.json"]
+source:
+  - src/**/*
