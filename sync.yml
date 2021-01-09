@@ -1,0 +1,17 @@
+BetaHuhn/gh-repo-automation:
+  - source: workflows/dependencies/dependabot.yml
+    dest: .github/workflows/dependabot.yml
+  - source: workflows/issues/stale.yml
+    dest: .github/workflows/stale.yml
+  - source: workflows/pull-request/automerge.yml
+    dest: .github/workflows/automerge.yml
+  - source: workflows/versioning/release-scheduler.yml
+    dest: .github/workflows/release-scheduler.yml
+  - source: workflows/versioning/release.yml
+    dest: .github/workflows/release.yml
+  - source: workflows/node/build.yml
+    dest: .github/workflows/build.yml
+  - source: configs/dependabot.yml
+    dest: .github/dependabot.yml
+  - source: configs/FUNDING.yml
+    dest: .github/FUNDING.yml
