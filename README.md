@@ -1,4 +1,4 @@
-# 🛠️ Workflow collection
+# 📄 Common GitHub files
 
 This repository contains common configuration files/GitHub Action workflows I use in my repositories.
 
