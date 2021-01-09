@@ -1,17 +1,94 @@
 group:
-  files: 
-    - source: configs/dependabot.yml
-      dest: .github/dependabot.yml
-  repos: |
-    BetaHuhn/gh-repo-automation
-    BetaHuhn/gh-repo-automation2
+  # dependabot files
+  - files:
+      - source: configs/dependabot.yml
+        dest: .github/dependabot.yml
+      - source: workflows/dependencies/dependabot.yml
+        dest: .github/workflows/dependabot.yml
+    repos: |
+      BetaHuhn/gh-repo-automation
+      BetaHuhn/do-spaces-action
+      BetaHuhn/running-at
+      BetaHuhn/spaces-cli
+      BetaHuhn/metadata-scraper
+      BetaHuhn/ejs-serve
+      BetaHuhn/feedback-js
+      BetaHuhn/drkmd.js
 
-group:
-  files:
-    - source: configs/FUNDING.yml
-      dest: .github/FUNDING.yml
-    - source: workflows/versioning/release.yml
-      dest: .github/workflows/release.yml
-  repos: |
-    BetaHuhn/gh-repo-automation
-    BetaHuhn/gh-repo-automation2
+  # GitHub Sponsors config
+  - files:
+      - source: configs/FUNDING.yml
+        dest: .github/FUNDING.yml
+    repos: |
+      BetaHuhn/gh-repo-automation
+      BetaHuhn/do-spaces-action
+      BetaHuhn/running-at
+      BetaHuhn/spaces-cli
+      BetaHuhn/qrgen
+      BetaHuhn/metadata-scraper
+      BetaHuhn/ejs-serve
+      BetaHuhn/feedback-js
+      BetaHuhn/drkmd.js
+
+  # Semantic release
+  - files:
+      - source: workflows/versioning/release-scheduler.yml
+        dest: .github/workflows/release-scheduler.yml
+      - source: workflows/versioning/release.yml
+        dest: .github/workflows/release.yml
+      - source: configs/release.config.js
+        dest: release.config.js
+    repos: |
+      BetaHuhn/gh-repo-automation
+      BetaHuhn/do-spaces-action
+      BetaHuhn/running-at
+      BetaHuhn/spaces-cli
+      BetaHuhn/qrgen
+      BetaHuhn/metadata-scraper
+      BetaHuhn/ejs-serve
+      BetaHuhn/feedback-js
+      BetaHuhn/drkmd.js
+
+  # Stale issues workflow
+  - files:
+      - source: workflows/issues/stale.yml
+        dest: .github/workflows/stale.yml
+    repos: |
+      BetaHuhn/gh-repo-automation
+      BetaHuhn/do-spaces-action
+      BetaHuhn/running-at
+      BetaHuhn/spaces-cli
+      BetaHuhn/qrgen
+      BetaHuhn/metadata-scraper
+      BetaHuhn/ejs-serve
+      BetaHuhn/feedback-js
+      BetaHuhn/drkmd.js
+
+  # Lint CI workflow
+  - files:
+      - source: workflows/node/lint.yml
+        dest: .github/workflows/lint.yml
+    repos: |
+      BetaHuhn/gh-repo-automation
+      BetaHuhn/do-spaces-action
+      BetaHuhn/running-at
+      BetaHuhn/spaces-cli
+      BetaHuhn/metadata-scraper
+      BetaHuhn/ejs-serve
+      BetaHuhn/feedback-js
+      BetaHuhn/drkmd.js
+
+  # MIT License
+  - files:
+      - source: LICENSE
+        dest: LICENSE
+    repos: |
+      BetaHuhn/gh-repo-automation
+      BetaHuhn/do-spaces-action
+      BetaHuhn/running-at
+      BetaHuhn/spaces-cli
+      BetaHuhn/qrgen
+      BetaHuhn/metadata-scraper
+      BetaHuhn/ejs-serve
+      BetaHuhn/feedback-js
+      BetaHuhn/drkmd.js
