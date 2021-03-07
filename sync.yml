@@ -79,7 +79,6 @@ group:
     repos: |
       BetaHuhn/do-spaces-action
       BetaHuhn/metadata-scraper
-      BetaHuhn/ackee-report
       BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
       BetaHuhn/deploy-to-vercel-action
