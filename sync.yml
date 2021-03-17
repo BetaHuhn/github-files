@@ -43,7 +43,6 @@ group:
     repos: |
       BetaHuhn/gh-repo-automation
       BetaHuhn/do-spaces-action
-      BetaHuhn/metadata-scraper
       BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
 
