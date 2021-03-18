@@ -1,8 +1,6 @@
 group:
-  # dependabot files
+  # dependabot workflow
   - files:
-      - source: configs/dependabot.yml
-        dest: .github/dependabot.yml
       - source: workflows/dependencies/dependabot.yml
         dest: .github/workflows/dependabot.yml
     repos: |
@@ -12,8 +10,33 @@ group:
       BetaHuhn/spaces-cli
       BetaHuhn/metadata-scraper
       BetaHuhn/ejs-serve
-      BetaHuhn/feedback-js
+      BetaHuhn/feedback
       BetaHuhn/drkmd.js
+      BetaHuhn/cf-worker-starter
+      BetaHuhn/latest-yt-video-worker
+      BetaHuhn/qrgen
+      BetaHuhn/portfolio
+      BetaHuhn/prettyweb
+      BetaHuhn/github-actions-starter
+
+  # dependabot config
+  - files:
+      - source: configs/dependabot.yml
+        dest: .github/dependabot.yml
+    repos: |
+      BetaHuhn/gh-repo-automation
+      BetaHuhn/do-spaces-action
+      BetaHuhn/running-at
+      BetaHuhn/spaces-cli
+      BetaHuhn/metadata-scraper
+      BetaHuhn/ejs-serve
+      BetaHuhn/feedback
+      BetaHuhn/drkmd.js
+      BetaHuhn/cf-worker-starter
+      BetaHuhn/latest-yt-video-worker
+      BetaHuhn/portfolio
+      BetaHuhn/prettyweb
+      BetaHuhn/github-actions-starter
 
   # GitHub Sponsors config
   - files:
@@ -29,8 +52,13 @@ group:
       BetaHuhn/qrgen
       BetaHuhn/metadata-scraper
       BetaHuhn/ejs-serve
-      BetaHuhn/feedback-js
+      BetaHuhn/feedback
       BetaHuhn/drkmd.js
+      BetaHuhn/cf-worker-starter
+      BetaHuhn/latest-yt-video-worker
+      BetaHuhn/portfolio
+      BetaHuhn/prettyweb
+      BetaHuhn/github-actions-starter
 
   # Semantic release
   - files:
@@ -43,8 +71,13 @@ group:
     repos: |
       BetaHuhn/gh-repo-automation
       BetaHuhn/do-spaces-action
-      BetaHuhn/feedback-js
+      BetaHuhn/feedback
       BetaHuhn/drkmd.js
+      BetaHuhn/cf-worker-starter
+      BetaHuhn/latest-yt-video-worker
+      BetaHuhn/portfolio
+      BetaHuhn/prettyweb
+      BetaHuhn/github-actions-starter
 
   # Stale issues workflow
   - files:
@@ -52,15 +85,8 @@ group:
         dest: .github/workflows/stale.yml
     repos: |
       BetaHuhn/gh-repo-automation
-      BetaHuhn/do-spaces-action
-      BetaHuhn/repo-file-sync-action
-      BetaHuhn/running-at
-      BetaHuhn/spaces-cli
-      BetaHuhn/qrgen
-      BetaHuhn/metadata-scraper
-      BetaHuhn/ejs-serve
-      BetaHuhn/feedback-js
-      BetaHuhn/drkmd.js
+      BetaHuhn/cf-worker-starter
+      BetaHuhn/github-actions-starter
 
   # Lint CI workflow
   - files:
@@ -78,10 +104,15 @@ group:
     repos: |
       BetaHuhn/do-spaces-action
       BetaHuhn/metadata-scraper
-      BetaHuhn/feedback-js
+      BetaHuhn/feedback
       BetaHuhn/drkmd.js
       BetaHuhn/deploy-to-vercel-action
       BetaHuhn/repo-file-sync-action
+      BetaHuhn/cf-worker-starter
+      BetaHuhn/latest-yt-video-worker
+      BetaHuhn/portfolio
+      BetaHuhn/prettyweb
+      BetaHuhn/github-actions-starter
 
   # Update latest tag workflow
   - files:
@@ -89,10 +120,11 @@ group:
         dest: .github/workflows/latest-tag.yml
     repos: |
       BetaHuhn/do-spaces-action
-      BetaHuhn/feedback-js
+      BetaHuhn/feedback
       BetaHuhn/drkmd.js
       BetaHuhn/deploy-to-vercel-action
       BetaHuhn/repo-file-sync-action
+      BetaHuhn/github-actions-starter
 
   # MIT License
   - files:
@@ -106,5 +138,8 @@ group:
       BetaHuhn/qrgen
       BetaHuhn/metadata-scraper
       BetaHuhn/ejs-serve
-      BetaHuhn/feedback-js
+      BetaHuhn/feedback
       BetaHuhn/drkmd.js
+      BetaHuhn/portfolio
+      BetaHuhn/prettyweb
+      BetaHuhn/github-actions-starter
