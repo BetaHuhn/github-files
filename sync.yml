@@ -10,7 +10,7 @@ group:
       BetaHuhn/spaces-cli
       BetaHuhn/metadata-scraper
       BetaHuhn/ejs-serve
-      BetaHuhn/feedback
+      BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
       BetaHuhn/cf-worker-starter
       BetaHuhn/latest-yt-video-worker
@@ -18,6 +18,7 @@ group:
       BetaHuhn/portfolio
       BetaHuhn/prettyweb
       BetaHuhn/github-actions-starter
+      BetaHuhn/mailpal
 
   # dependabot config
   - files:
@@ -30,7 +31,7 @@ group:
       BetaHuhn/spaces-cli
       BetaHuhn/metadata-scraper
       BetaHuhn/ejs-serve
-      BetaHuhn/feedback
+      BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
       BetaHuhn/cf-worker-starter
       BetaHuhn/latest-yt-video-worker
@@ -52,7 +53,7 @@ group:
       BetaHuhn/qrgen
       BetaHuhn/metadata-scraper
       BetaHuhn/ejs-serve
-      BetaHuhn/feedback
+      BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
       BetaHuhn/cf-worker-starter
       BetaHuhn/latest-yt-video-worker
@@ -71,7 +72,7 @@ group:
     repos: |
       BetaHuhn/gh-repo-automation
       BetaHuhn/do-spaces-action
-      BetaHuhn/feedback
+      BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
       BetaHuhn/cf-worker-starter
       BetaHuhn/latest-yt-video-worker
@@ -104,7 +105,7 @@ group:
     repos: |
       BetaHuhn/do-spaces-action
       BetaHuhn/metadata-scraper
-      BetaHuhn/feedback
+      BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
       BetaHuhn/deploy-to-vercel-action
       BetaHuhn/repo-file-sync-action
@@ -120,7 +121,7 @@ group:
         dest: .github/workflows/latest-tag.yml
     repos: |
       BetaHuhn/do-spaces-action
-      BetaHuhn/feedback
+      BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
       BetaHuhn/deploy-to-vercel-action
       BetaHuhn/repo-file-sync-action
@@ -138,7 +139,7 @@ group:
       BetaHuhn/qrgen
       BetaHuhn/metadata-scraper
       BetaHuhn/ejs-serve
-      BetaHuhn/feedback
+      BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
       BetaHuhn/portfolio
       BetaHuhn/prettyweb
