@@ -19,6 +19,13 @@ group:
       BetaHuhn/prettyweb
       BetaHuhn/github-actions-starter
       BetaHuhn/mailpal
+      BetaHuhn/webpack-loader-s3
+      BetaHuhn/flo-portfolio
+      BetaHuhn/email-verify
+      BetaHuhn/mailpal-landing
+      BetaHuhn/ifttt-status
+      BetaHuhn/api-platform
+      BetaHuhn/speedtest
 
   # dependabot config
   - files:
@@ -38,6 +45,13 @@ group:
       BetaHuhn/portfolio
       BetaHuhn/prettyweb
       BetaHuhn/github-actions-starter
+      BetaHuhn/webpack-loader-s3
+      BetaHuhn/flo-portfolio
+      BetaHuhn/email-verify
+      BetaHuhn/mailpal-landing
+      BetaHuhn/ifttt-status
+      BetaHuhn/api-platform
+      BetaHuhn/speedtest
 
   # GitHub Sponsors config
   - files:
@@ -60,6 +74,10 @@ group:
       BetaHuhn/portfolio
       BetaHuhn/prettyweb
       BetaHuhn/github-actions-starter
+      BetaHuhn/webpack-loader-s3
+      BetaHuhn/email-verify
+      BetaHuhn/ifttt-status
+      BetaHuhn/speedtest
 
   # Semantic release
   - files:
@@ -144,3 +162,7 @@ group:
       BetaHuhn/portfolio
       BetaHuhn/prettyweb
       BetaHuhn/github-actions-starter
+      BetaHuhn/webpack-loader-s3
+      BetaHuhn/flo-portfolio
+      BetaHuhn/email-verify
+      BetaHuhn/ifttt-status
