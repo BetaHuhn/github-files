@@ -116,7 +116,6 @@ group:
         dest: .github/workflows/lint.yml
     repos: |
       BetaHuhn/running-at
-      BetaHuhn/spaces-cli
       BetaHuhn/ejs-serve
 
   # Node CI workflow
