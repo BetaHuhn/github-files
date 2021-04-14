@@ -26,6 +26,7 @@ group:
       BetaHuhn/ifttt-status
       BetaHuhn/api-platform
       BetaHuhn/speedtest
+      BetaHuhn/deploy-to-vercel-action
 
   # dependabot config
   - files:
@@ -52,6 +53,7 @@ group:
       BetaHuhn/ifttt-status
       BetaHuhn/api-platform
       BetaHuhn/speedtest
+      BetaHuhn/deploy-to-vercel-action
 
   # GitHub Sponsors config
   - files:
@@ -78,6 +80,7 @@ group:
       BetaHuhn/email-verify
       BetaHuhn/ifttt-status
       BetaHuhn/speedtest
+      BetaHuhn/deploy-to-vercel-action
 
   # Semantic release
   - files:
@@ -166,3 +169,4 @@ group:
       BetaHuhn/flo-portfolio
       BetaHuhn/email-verify
       BetaHuhn/ifttt-status
+      BetaHuhn/deploy-to-vercel-action
