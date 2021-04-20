@@ -13,16 +13,12 @@ group:
       BetaHuhn/feedback-js
       BetaHuhn/drkmd.js
       BetaHuhn/cf-worker-starter
-      BetaHuhn/latest-yt-video-worker
       BetaHuhn/qrgen
       BetaHuhn/portfolio
       BetaHuhn/prettyweb
       BetaHuhn/github-actions-starter
-      BetaHuhn/mailpal
       BetaHuhn/webpack-loader-s3
-      BetaHuhn/flo-portfolio
       BetaHuhn/email-verify
-      BetaHuhn/mailpal-landing
       BetaHuhn/ifttt-status
       BetaHuhn/api-platform
       BetaHuhn/speedtest
